@@ -1,3 +1,12 @@
+# ============================================================
+# IDE / OS
+# ============================================================
+/.idea/
+/.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -216,3 +225,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+/.ai-agent/standards/
+/.ai-agent/prompts/
+/.ai-agent/agent.data/
+/docs/
+
+
