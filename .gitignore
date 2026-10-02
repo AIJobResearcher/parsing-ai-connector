@@ -137,7 +137,7 @@ ipython_config.py
 __pypackages__/
 
 # Celery stuff
-celerybeat-schedule
+celerybeat-schedule*
 celerybeat.pid
 
 # Redis
@@ -232,3 +232,6 @@ __marimo__/
 
 
 /.ai-agent/user.data/
+/deploy/Dockerfile
+/docker-compose.yml
+/.build.sh

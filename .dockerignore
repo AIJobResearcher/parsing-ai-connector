@@ -1,0 +1,20 @@
+# Build context exclusions. The deploy/ directory still supplies the
+# Dockerfile via `docker build -f deploy/Dockerfile`; it is not needed inside
+# the image.
+.git
+.idea
+.ai-agent
+docs
+deploy
+tests
+*.md
+.env
+.env.example
+.dockerignore
+__pycache__
+*.py[cod]
+.pytest_cache
+.mypy_cache
+.ruff_cache
+htmlcov
+.coverage

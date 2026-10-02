@@ -10,6 +10,7 @@
 
 - Docs are not gospel; report contradictions to the user.
 - Key files (reference and Ubiquitous Language):
+  `docs/architecture-overview.md`,
   `docs/domain/bounded-contexts/parsing-ai-connector.md`,
   `docs/api/parsing-ai-connector/openapi.yaml`,
   `docs/asyncapi/events.yaml`, `docs/event-storming/ai-parsing.md`,
